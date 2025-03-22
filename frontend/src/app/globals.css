@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.background {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  inset: 0px;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+
+  background-color:hsla(219,14%,95%,1);
+  background-image:
+  radial-gradient(at 46% 51%, hsla(28,100%,70%,1) 0px, transparent 50%),
+  radial-gradient(at 77% 82%, hsla(201,74%,62%,1) 0px, transparent 50%),
+  radial-gradient(at 17% 13%, hsla(222,73%,62%,1) 0px, transparent 50%),
+  radial-gradient(at 83% 20%, hsla(40,100%,70%,1) 0px, transparent 50%),
+  radial-gradient(at 14% 82%, hsla(23,100%,70%,1) 0px, transparent 50%),
+  radial-gradient(at 51% 12%, hsla(36,100%,70%,1) 0px, transparent 50%);
+}
+
+.containerPanel {
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -5px 10px rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
