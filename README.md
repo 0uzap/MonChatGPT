@@ -36,7 +36,7 @@ L'application utilise l'API **Hugging Face** pour générer des réponses et enr
 - cd frontend
 - npm run dev
 
-- Vous pourrez ensuite acceder à l'interface de Mini-GPT à cette adresse: http://localhost:3000 ou en faisant un CTRL + Click sur le lien local s'affichant dans votre terminal
+- Vous pourrez ensuite acceder à l'interface de Mini-GPT à cette adresse: "http://localhost:3000" ou en faisant un CTRL + Click sur le lien local s'affichant dans votre terminal
 
 
  
